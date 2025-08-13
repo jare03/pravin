@@ -19,12 +19,11 @@ jobs:
         with:
           python version: '3.10'
           
-      # RUN First Python Script
+      # Run First Python Script
       - name: Run Hello.py 1
         run: python Hello.py
 
-        #Run Second Python Script
-
+      # Run Second Python Script
       - name: Run Hello.py 2
         run: python Hello.py
           
