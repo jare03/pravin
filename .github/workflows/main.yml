@@ -22,4 +22,8 @@ jobs:
         run:
           echo "this is demo file " > demo.txt
           cat demo.txt
-        
+
+      - name: Run Python program 
+        run: |
+          echo 'print("hello from python")' > Hello.py
+          python3 hello.py
