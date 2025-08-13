@@ -1,0 +1,25 @@
+name: Basic Commands
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show current working directory
+        run: pwd
+
+      - name: List files in the directory
+        run: ls -la
+
+      - name: Print todays date
+        run: date
+
+      - name: create and display text file 
+        run:
+          echo "this is demo file " > demo.txt
+          cat demo.txt
+        
