@@ -15,7 +15,7 @@ jobs:
         
       # Set up Python
       - name: Set up Python
-        uses: actions/Setup Python@v5
+        uses: actions/Setup-Python@v5
         with:
           python version: '3.10'
           
